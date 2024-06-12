@@ -4,7 +4,7 @@
 This project aims to enhance the traditional 9-Hole Peg Test by integrating digital components to make the test more interactive and effective for patient rehabilitation. The test uses a piezo sensor to detect touch inputs, control LED lights, and collect data to monitor patient progress. By digitalizing the test, we can provide a more engaging experience for patients and more precise data for healthcare providers.
 
 ## Video Demonstration
-[![Watch the video](https://drive.google.com/file/d/1Fo5fdeww7PVEz_LcmSy1AHHzR1ENq6Q_/view?usp=sharing)]
+[![Watch the video](https://img.icons8.com/clouds/100/000000/video.png)](https://drive.google.com/file/d/1Fo5fdeww7PVEz_LcmSy1AHHzR1ENq6Q_/view?usp=sharing)
 
 ## Project Features
 - **Interactive LED Guidance:** LED lights guide patients on where to place the pegs, making the test more engaging and easier to follow.
