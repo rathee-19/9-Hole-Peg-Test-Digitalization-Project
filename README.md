@@ -18,42 +18,7 @@ This project aims to enhance the traditional 9-Hole Peg Test by integrating digi
 - **LEDs:** To guide the patient on where to place the pegs.
 - **Breadboard and Wires:** For setting up the circuit.
 
-## Circuit Diagram
-![Circuit Diagram](circuit-diagram.png)
 
-## Code
-Here's a snippet of the Arduino code used for this project. For the full code, please refer to the project repository.
-
-```cpp
-#include <stdlib.h>
-
-// Initialize sensor and LED pins, previous readings, and random seed
-void setup() {
-  delay(2000);
-  Serial.begin(9600); // Enable serial monitor
-  // Setup code omitted for brevity
-}
-
-void loop() {
-  // Read sensor values and check thresholds
-  // Previous readings and checkSensor function omitted for brevity
-
-  playGame();
-
-  delay(500);
-}
-
-// Function to play a simple game by randomly turning on LEDs
-void playGame() {
-  int ledPins[] = {19, 16, 5, 0, 21, 18, 22, 3, 17};
-  int randomIndex = random(0, 9);
-  int ledPin = ledPins[randomIndex];
-
-  digitalWrite(ledPin, HIGH);
-  delay(1000); // LED stays on for 1 second
-  digitalWrite(ledPin, LOW);
-}
-```
 
 ## How to Use
 
